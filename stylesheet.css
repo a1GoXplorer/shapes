@@ -1,3 +1,43 @@
+body {
+  background-color: beige;
+}
+
 h1 {
   color: green;
+
+}
+
+div {
+  font-family: Helvetica;
+}
+
+.text {
+  color: white;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background: red;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  background: blue;
+  text-align: center;
+}
+
+#circletext {
+  padding-top: 20px;
+  color: deepskyblue;
 }
