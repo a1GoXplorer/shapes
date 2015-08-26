@@ -4,6 +4,9 @@ body {
 
 h1 {
   color: green;
+  font-family: Arial Rounded MT Bold;
+  font-size: 35px;
+  text-decoration: underline;
 
 }
 
@@ -40,6 +43,7 @@ div {
 #circletext {
   padding-top: 20px;
   color: deepskyblue;
+  font-family: Optima;
 }
 
 .oval {
@@ -72,4 +76,115 @@ div {
   margin-left: -12px;
   padding-top: 50px;
   color: black;
+  font-family: Courier New;
+}
+
+.triangledown {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid coral;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+#triangledowntext {
+  color: black;
+  margin-top: -105px;
+  margin-left: -26px;
+  font-family: Courier New;
+
+}
+
+.triangleleft {
+  width: 0;
+  height: 0;
+  border-right: 100px solid coral;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+
+#trianglelefttext {
+  color: black;
+  font-family: Courier New;
+  margin-left: 43px;
+  margin-top: -10px;
+
+}
+
+.triangleright {
+  width: 0;
+  height: 0;
+  border-left: 100px solid coral;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+
+#trianglerighttext {
+  color: black;
+  font-family: Courier New;
+  margin-left: -77px;
+  margin-top: -10px;
+
+}
+
+.triangletopleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid coral;
+  border-right: 100px solid transparent;
+  margin-top: 25px;
+}
+
+#triangletoplefttext {
+  color: black;
+  font-family: Papyrus;
+  transform: rotate(-45deg);
+  margin-top: -65px;
+  margin-left: 12px;
+}
+
+.triangletopright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid coral;
+  border-left: 100px solid transparent;
+  margin-top: 20px;
+}
+
+#triangletoprighttext {
+  color: black;
+  font-family: Papyrus;
+  transform: rotate(45deg);
+  margin-top: -85px;
+  margin-left: -65px;
+}
+
+.trianglebottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid coral;
+  border-right: 100px solid transparent;
+  margin-top: 5px;
+}
+
+#trianglebottomlefttext {
+  color: black;
+  font-family: Papyrus;
+  transform: rotate(180deg);
+
+}
+
+.trianglebottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid coral;
+  border-left: 100px solid transparent; 
+}
+
+#trianglebottomrighttext {
+  color: black;
+  font-family: Papyrus;
+  transform: rotate(135deg);
 }
