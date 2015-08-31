@@ -172,19 +172,26 @@ div {
 #trianglebottomlefttext {
   color: black;
   font-family: Papyrus;
-  transform: rotate(180deg);
-
+  transform: rotate(-135deg);
+  position: absolute;
+  width: 65px;
+  margin-top: 34px;
 }
 
 .trianglebottomright {
   width: 0;
   height: 0;
   border-bottom: 100px solid coral;
-  border-left: 100px solid transparent; 
+  border-left: 100px solid transparent;
+  margin: 20px; 
 }
 
 #trianglebottomrighttext {
   color: black;
   font-family: Papyrus;
   transform: rotate(135deg);
+  position: absolute;
+  margin-left: -70px;
+  margin-top: 40px;
+  width: 65px;
 }
